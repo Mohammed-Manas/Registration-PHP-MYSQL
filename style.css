@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 600px;
+  background:linear-gradient(45deg, #83a4d4,#b6fbff);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h1 {
+  padding: 10px 0px;
+  border-bottom: 1px solid black;
+}
+
+p {
+  padding: 10px;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.input input {
+  width: 69%;
+  text-align: center;
+  margin-left: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: left;
+}
+
+.input label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.input select {
+  width: 100%;
+  margin-left: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+form .radio {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.radio label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.btn input {
+  padding: 10px 0px;
+  background: transparent;
+  border: none;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
+  border-radius: 20px;
+  background-color: #ffffff;
+   color: black;
+  font-size: 16px;
+  margin: 20px 10px;
+}
+
+.btn input:hover {
+  background-color: black;
+  color: white;
+  transform: translateY(-2px);
+ 
+}
+
+@media (min-width: 768px) {
+  .btn input {
+    padding: 16px 34px;
+    min-width: 100px;
+  }
+}
+
+span {
+  color: red;
+}
